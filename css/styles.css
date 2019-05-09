@@ -180,6 +180,10 @@ nav.navbar {
     padding-bottom: 70px;
 }
 
+#menu li:firstchild {
+    
+}
+
 #menu h1 {
     color: #fff;
     font-family: 'Lobster', cursive;
@@ -209,7 +213,7 @@ nav.navbar {
 
 .food {
     background-color: #fff;
-    padding: 20px 0px;
+    padding: 20px 15px;
 }
 
 #menu .nav li a:hover {
@@ -274,6 +278,10 @@ address {
     margin-bottom: 25px;
 }
 
+.requiredStar::after {
+    content: '*';
+    color: #000;
+}
 @media (max-width: 768px) {
     .story_year {
         justify-content: center;
