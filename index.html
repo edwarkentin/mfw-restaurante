@@ -10,6 +10,7 @@
 </head>
 <body>
 
+<!-- NavBar -->
 	<nav class="navbar navbar-default">
 		<div class="container-fluid">
 			<div class="navbar-header">
@@ -77,7 +78,6 @@
 
 
 <!-- Our Story section -->
-
 <div id="our_story" class="container-fluid">
 	<div class="row">
 		<div class="col-sm-4 col-sm-offset-1">
@@ -95,7 +95,6 @@
 </div>
 
 <!-- Review section -->
-
 <div id="review" class="container-fluid wrap">
 	<div class="row text-center">
 		<div class="col-sm-8 center">
@@ -106,7 +105,6 @@
 </div>
 
 <!-- Menu section -->
-
 <div id="menu">
 	<div class="container">
 		<div class="row text-center">
@@ -119,7 +117,7 @@
 			<li><a href="#dessert" data-toggle="tab">Dessert</a></li>
 		</ul>
 		<div class="tab-content">
-			<div id="appetizer" class="tab-pane fade ">
+			<div id="appetizer" class="tab-pane fade active in">
 				<div class="col-sm-3 col-xs-6 food">
 					<img src="img/dip.jpg" alt="appetizers" class="img-responsive img-thumbnail">
 					<h3>Appetizer 1</h3>
@@ -217,24 +215,36 @@
 		<div class="col-sm-8 col-sm-offset-2">
 			<div class="row">
 				<div class="col-sm-12">
-					<h1 class="text-uppercase"></h1>
+					<h1 class="text-uppercase">Contact Us</h1>
 				</div>
 			</div>
 			<div class="row">
 				<div class="col-sm-12">
-					<p>lorem</p>
+					<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloribus eveniet officiis aut necessitatibus dolorem animi.</p>
 				</div>
 			</div>
 			<div class="row contact_bottom">
 				<div class="col-sm-6">
 					<div class="col-sm-12 contact_form">
-						<form action=""></form>
-						<div class="form-group"><label for=""></label><input type="text" class="form-control" placeholder="name"></div>
-						<div class="form-group"><label for=""></label><input type="text" class="form-control" placeholder="name"></div>
-						<div class="form-group"><label for=""></label><input type="text" class="form-control" placeholder="name"></div>
-						<div class="form-group"><label for=""><textarea name="" id="" cols="30" rows="3" class="form-control"></textarea></label></div>
+						<form action="#"></form>
+						<div class="form-group"><label for="name">Name:<span class="requiredStar"></span></label><input type="text" class="form-control" placeholder="Name"></div>
+						<div class="form-group"><label for="email">E-mail:<span class="requiredStar"></span></label><input type="text" class="form-control" placeholder="E-mail"></div>
+						<div class="form-group"><label for="subject">Subject:<span class="requiredStar"></span></label><input type="text" class="form-control" placeholder="Subject"></div>
+						<div class="form-group"><label for="">Message:<span class="requiredStar"></span><textarea cols="80" rows="3" class="form-control" placeholder="Your message here"></textarea></label></div>
 						<div class="checkbox"><label for=""><input type="checkbox">I'm not a robot</label></div>
+						<button type="submit" class="btn btn-default center-block">Send Message</button>
+						<p class="text-center" id="contact_fine_print">All fields marked <span class="requiredStar"> are mandatory.</span></p>
 					</div>
+				</div>
+				<div class="col-sm-5">
+					<address>
+						<strong class="text-uppercase">Restaurante</strong>
+						<br>
+						123 Fulton St.
+						<br>
+						Fresno, CA 93728<br>P: (123) 456-7890
+					</address>
+					<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12790.272223618278!2d-119.79189018022458!3d36.73293380000001!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80945e26d4340503%3A0xb32dda71cf0730a0!2sBitwise+South+Stadium!5e0!3m2!1sen!2sus!4v1557365908452!5m2!1sen!2sus" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
 				</div>
 			</div>
 		</div>
